@@ -20,9 +20,7 @@
 ## 🚀 Tech Stack
 
 * **Frontend:** React (Vite)
-* **Styling:** Modern Scoped CSS with a Focus on Typography and Spacing
 * **Database:** Firebase Firestore (NoSQL)
-* **State Management:** React Hooks (`useState`, `useEffect`)
 * **Routing:** React Router v6
 
 ---
@@ -34,3 +32,6 @@ Clone the repository and install the necessary dependencies:
 ```bash
 npm install
 npm install firebase react-router-dom
+``` 
+
+`Please Note: Firebase key are private please contact are send a gmail to me to acces this please`
