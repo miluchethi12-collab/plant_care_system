@@ -1,0 +1,50 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #2c3e50; /* Softer dark for text */
+  background-color: #fcfdfc; /* Very subtle green-white background */
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Make links use the green theme */
+a {
+  font-weight: 500;
+  color: #2d5a27;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #4caf50;
+}
+
+/* Reset buttons so they don't have that default Vite purple border */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+/* Typography basics */
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  color: #1b3318;
+}
+
+/* Clean up global box-sizing to prevent padding issues */
+* {
+  box-sizing: border-box;
+} 
