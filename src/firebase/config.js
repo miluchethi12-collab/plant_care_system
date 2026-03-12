@@ -5,14 +5,15 @@ import { initializeApp, getApps } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDkF2NJPw_CKPKq980e5cpYlm_HJdJxjrI",
-  authDomain: "plantcare-spa-72771.firebaseapp.com",
-  projectId: "plantcare-spa-72771",
-  storageBucket: "plantcare-spa-72771.firebasestorage.app",
-  messagingSenderId: "307625990711",
-  appId: "1:307625990711:web:c5f43ba08431794f53fdb2",
-  measurementId: "G-W7858KQG3X"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
+
 
 // initialize Firebase (avoid duplicate-app error when hot-reloading)
 let app;
